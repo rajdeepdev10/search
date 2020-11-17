@@ -1,0 +1,74 @@
+/*css for advanced.html only*/
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #f1f1f1;
+    width: 100%;
+}
+
+nav, .google-logo-header {
+    padding: 15px;
+}
+
+#advanced-header{
+    color: #d93025;
+    margin: 15px;
+    padding: 15px;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 150%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.field{
+    padding: 15px;
+    padding-left: 30px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+p{
+    padding-left: 30px;
+}
+
+.text-input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 70%;
+}
+
+#search-button{
+    display: flex;
+    margin-left: 700px;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: small;
+}
+a:hover{
+    text-decoration: underline;
+}
